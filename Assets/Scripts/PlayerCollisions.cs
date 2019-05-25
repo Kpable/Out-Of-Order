@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCollisions : MonoBehaviour
 {
-    public CollisionInfo collisionInfo;
+    public CollisionInfo info;
 
     BoxCollider2D collider;
     Bounds bounds;
@@ -25,43 +25,127 @@ public class PlayerCollisions : MonoBehaviour
     void Update()
     {
         float directionX = Mathf.Sign(transform.localScale.x);
-        collisionInfo.Reset();
+        info.Reset();
         UpdateRaycastOrigins();
 
         // cast Right
-        RaycastHit2D hit = Physics2D.Raycast(rayOrigins.Right, Vector2.right, 2* skinWidth, collisionMask);
-        Debug.DrawRay(rayOrigins.Right, Vector2.right, Color.red);
+        Vector2 rayOrigin = rayOrigins.Right;
+        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.right, 2* skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, Vector2.right, Color.red);
 
         if(hit)
         {
-            collisionInfo.Right = true;
+            info.Right = true;
+        }
+
+        rayOrigin = rayOrigins.TopRight;
+        rayOrigin.y -= skinWidth;
+        hit = Physics2D.Raycast(rayOrigin, Vector2.right, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, Vector2.right, Color.red);
+
+        if (hit)
+        {
+            info.Right = true;
+        }
+
+        rayOrigin = rayOrigins.BottomRight;
+        rayOrigin.y += skinWidth;
+        hit = Physics2D.Raycast(rayOrigin, Vector2.right, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, Vector2.right, Color.red);
+
+        if (hit)
+        {
+            info.Right = true;
         }
 
         // cast Left
-        hit = Physics2D.Raycast(rayOrigins.Left, -Vector2.right, 2 * skinWidth, collisionMask);
-        Debug.DrawRay(rayOrigins.Left, -Vector2.right, Color.red);
+        rayOrigin = rayOrigins.Left;
+        hit = Physics2D.Raycast(rayOrigin, -Vector2.right, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, -Vector2.right, Color.red);
 
         if (hit)
         {
-            collisionInfo.Left = true;
+            info.Left = true;
+        }
+
+        rayOrigin = rayOrigins.BottomLeft;
+        rayOrigin.y += skinWidth;
+        hit = Physics2D.Raycast(rayOrigin, -Vector2.right, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, -Vector2.right, Color.red);
+
+        if (hit)
+        {
+            info.Left = true;
+        }
+
+        rayOrigin = rayOrigins.TopLeft;
+        rayOrigin.y -= skinWidth;
+        hit = Physics2D.Raycast(rayOrigin, -Vector2.right, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, -Vector2.right, Color.red);
+
+        if (hit)
+        {
+            info.Left = true;
         }
 
         // cast Up
-        hit = Physics2D.Raycast(rayOrigins.Top, Vector2.up, 2 * skinWidth, collisionMask);
-        Debug.DrawRay(rayOrigins.Top, Vector2.up, Color.red);
+        rayOrigin = rayOrigins.Top;
+        hit = Physics2D.Raycast(rayOrigin, Vector2.up, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, Vector2.up, Color.red);
 
         if (hit)
         {
-            collisionInfo.Above = true;
+            info.Above = true;
+        }
+
+        rayOrigin = rayOrigins.TopLeft;
+        rayOrigin.x += skinWidth;
+        hit = Physics2D.Raycast(rayOrigin, Vector2.up, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, Vector2.up, Color.red);
+
+        if (hit)
+        {
+            info.Above = true;
+        }
+
+        rayOrigin = rayOrigins.TopRight;
+        rayOrigin.x -= skinWidth;
+        hit = Physics2D.Raycast(rayOrigin, Vector2.up, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, Vector2.up, Color.red);
+
+        if (hit)
+        {
+            info.Above = true;
         }
 
         // cast Down
-        hit = Physics2D.Raycast(rayOrigins.Bottom, -Vector2.up, 2 * skinWidth, collisionMask);
-        Debug.DrawRay(rayOrigins.Bottom, -Vector2.up, Color.red);
+        rayOrigin = rayOrigins.Bottom;
+        hit = Physics2D.Raycast(rayOrigin, -Vector2.up, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, -Vector2.up, Color.red);
 
         if (hit)
         {
-            collisionInfo.Below = true;
+            info.Below = true;
+        }
+
+        rayOrigin = rayOrigins.BottomLeft;
+        rayOrigin.x += skinWidth;
+        hit = Physics2D.Raycast(rayOrigin, -Vector2.up, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, -Vector2.up, Color.red);
+
+        if (hit)
+        {
+            info.Below = true;
+        }
+
+        rayOrigin = rayOrigins.BottomRight;
+        rayOrigin.x -= skinWidth;
+        hit = Physics2D.Raycast(rayOrigin, -Vector2.up, 2 * skinWidth, collisionMask);
+        Debug.DrawRay(rayOrigin, -Vector2.up, Color.red);
+
+        if (hit)
+        {
+            info.Below = true;
         }
     }
 
