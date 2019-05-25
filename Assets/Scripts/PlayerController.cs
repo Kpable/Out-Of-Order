@@ -82,6 +82,31 @@ public class PlayerController : MonoBehaviour
         {
             wallSliding = false;
         }
+
+        if (jump && wallSliding)
+        {
+            // leap off wall to other side
+            if ((xInput == 1 && playerCollisions.info.Left) || (xInput == -1 && playerCollisions.info.Right))
+            {
+                Vector2 vel = wallLeap;
+                vel.x *= ((playerCollisions.info.Left) ? 1 : -1);
+                body.velocity = vel;
+            }
+            // hop off wall
+            else if(playerCollisions.info.Left || playerCollisions.info.Right)
+            {
+                Vector2 vel = wallJumpOff;
+                vel.x *= ((playerCollisions.info.Left) ? 1 : -1);
+                body.velocity = vel;
+            }
+            // Wall Jump climb
+            else if((playerCollisions.info.Left && xInput == -1 ) || (playerCollisions.info.Right && xInput == 1))
+            {
+                Vector2 vel = wallJumpClimb;
+                vel.x *= ((playerCollisions.info.Left) ? 1 : -1);
+                body.velocity = vel;
+            }
+        }
     }
 
     private void GravityAdjustment()
