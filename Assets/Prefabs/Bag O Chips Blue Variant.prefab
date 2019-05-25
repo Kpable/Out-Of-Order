@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8172677686980451783, guid: 800e2217a08216b4fb17f4b2e67eda0e,
         type: 3}
       propertyPath: m_Name
-      value: Bag O Chips Blue
+      value: Bag O Chips Blue Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4206313543469627862, guid: 800e2217a08216b4fb17f4b2e67eda0e,
         type: 3}
@@ -75,6 +75,16 @@ PrefabInstance:
     - target: {fileID: -736868973485848583, guid: 800e2217a08216b4fb17f4b2e67eda0e,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -736868973485848583, guid: 800e2217a08216b4fb17f4b2e67eda0e,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -736868973485848583, guid: 800e2217a08216b4fb17f4b2e67eda0e,
+        type: 3}
+      propertyPath: m_Size.y
       value: 3.75
       objectReference: {fileID: 0}
     - target: {fileID: 1499876843789045874, guid: 800e2217a08216b4fb17f4b2e67eda0e,
