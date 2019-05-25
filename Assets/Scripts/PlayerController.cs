@@ -18,10 +18,14 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D body;
 
+
+    PlayerCollisions playerCollisions;
+
     // Start is called before the first frame update
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        playerCollisions = GetComponent<PlayerCollisions>();
     }
 
     // Update is called once per frame
@@ -43,7 +47,7 @@ public class PlayerController : MonoBehaviour
         else
             body.velocity = Vector2.up * body.velocity.y;
         Debug.Log(movement);
-        if (jump)
+        if (jump && playerCollisions.info.Below)
         {
             body.velocity = Vector2.up * jumpSpeed;
         }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCollisions : MonoBehaviour
 {
-    public CollisionInfo collisionInfo;
+    public CollisionInfo info;
 
     BoxCollider2D collider;
     Bounds bounds;
@@ -25,7 +25,7 @@ public class PlayerCollisions : MonoBehaviour
     void Update()
     {
         float directionX = Mathf.Sign(transform.localScale.x);
-        collisionInfo.Reset();
+        info.Reset();
         UpdateRaycastOrigins();
 
         // cast Right
@@ -34,7 +34,7 @@ public class PlayerCollisions : MonoBehaviour
 
         if(hit)
         {
-            collisionInfo.Right = true;
+            info.Right = true;
         }
 
         // cast Left
@@ -43,7 +43,7 @@ public class PlayerCollisions : MonoBehaviour
 
         if (hit)
         {
-            collisionInfo.Left = true;
+            info.Left = true;
         }
 
         // cast Up
@@ -52,7 +52,7 @@ public class PlayerCollisions : MonoBehaviour
 
         if (hit)
         {
-            collisionInfo.Above = true;
+            info.Above = true;
         }
 
         // cast Down
@@ -61,7 +61,7 @@ public class PlayerCollisions : MonoBehaviour
 
         if (hit)
         {
-            collisionInfo.Below = true;
+            info.Below = true;
         }
     }
 
