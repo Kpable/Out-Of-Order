@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,7 +26,7 @@ public class PlayerController : MonoBehaviour
     public float wallStickTime = .25f;
 
     Rigidbody2D body;
-
+    Animator anim;
 
     PlayerCollisions playerCollisions;
 
@@ -34,6 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         playerCollisions = GetComponent<PlayerCollisions>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -63,6 +65,7 @@ public class PlayerController : MonoBehaviour
         GravityAdjustment();
 
         Flip();
+        HandleAnimations();
     }
 
     private void HandleJump()
@@ -148,5 +151,11 @@ public class PlayerController : MonoBehaviour
         if(body.velocity.x !=0) 
             localScale.x = Mathf.Sign(body.velocity.x);
         transform.localScale = localScale;
+    }
+
+    private void HandleAnimations()
+    {
+        anim.SetFloat("yVelocity", body.velocity.y);
+        anim.SetBool("Moving", xInput != 0);
     }
 }
