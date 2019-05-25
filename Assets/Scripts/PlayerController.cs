@@ -9,12 +9,19 @@ public class PlayerController : MonoBehaviour
 
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2f;
+    public float wallSlideMultiplier = 0.4f;
 
     float accelerationTimeGrounded = .1f;
     float accelerationTimeAirborne = .2f;
     float smoothing;
     float xInput;
     bool jump;
+
+    public bool wallSliding = false;
+    public Vector2 wallJumpClimb;
+    public Vector2 wallJumpOff;
+    public Vector2 wallLeap;
+
 
     Rigidbody2D body;
 
@@ -46,22 +53,48 @@ public class PlayerController : MonoBehaviour
             body.velocity += movement;
         else
             body.velocity = Vector2.up * body.velocity.y;
+
+               
         Debug.Log(movement);
+
+        HandleJump();
+
+        GravityAdjustment();
+
+        Flip();
+    }
+
+    private void HandleJump()
+    {
         if (jump && playerCollisions.info.Below)
         {
             body.velocity = Vector2.up * jumpSpeed;
         }
 
+        // if wall to left or right, is in the air, and is falling
+        if ((playerCollisions.info.Left || playerCollisions.info.Right) && !playerCollisions.info.Below && body.velocity.y < 0)
+        {
+            wallSliding = true;
+            if (playerCollisions.info.Left && xInput == -1 || playerCollisions.info.Right && xInput == 1)
+                body.velocity = new Vector2( 0, body.velocity.y);
+        }
+        else
+        {
+            wallSliding = false;
+        }
+    }
+
+    private void GravityAdjustment()
+    {
         if (body.velocity.y < 0)
         {
-            body.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            body.velocity += Vector2.up * Physics2D.gravity.y * ((wallSliding) ? wallSlideMultiplier -1 : fallMultiplier - 1) * Time.deltaTime;
+
         }
         else
         {
             body.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
-
-        Flip();
     }
 
     void Flip()
