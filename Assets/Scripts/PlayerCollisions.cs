@@ -6,7 +6,7 @@ public class PlayerCollisions : MonoBehaviour
 {
     public CollisionInfo info;
 
-    BoxCollider2D collider;
+    Collider2D collider;
     Bounds bounds;
 
     RaycastOrigins rayOrigins;
@@ -18,7 +18,7 @@ public class PlayerCollisions : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        collider = GetComponent<BoxCollider2D>();
+        collider = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
