@@ -23,7 +23,7 @@ public class TimeManager : MonoBehaviour
     private int ShakeLow;
     public int ShakeDeviation;
 
-
+    public GameObject UIParent;
 
 
     // Start is called before the first frame update
