@@ -7,21 +7,21 @@ public class TimeManager : MonoBehaviour
 {
     public bool pause;
 
-    public float timercalc;
-    public int GameTimeDelta;
+    private float timercalc;
+    private int GameTimeDelta;
     public int scale;
     public int MissionTimer;
 
-    public int MissionCount;
+    private int MissionCount;
     public int[] MissionTimes;
 
     public GameObject VendingMachine;
-    public int ShakeBase;
-    public int ShakeHigh;
-    public int ShakeLow;
+    private int ShakeBase;
+    private int ShakeHigh;
+    private int ShakeLow;
     public int ShakeDeviation;
     
-
+    public
 
 
 
