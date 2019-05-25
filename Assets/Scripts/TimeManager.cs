@@ -6,22 +6,23 @@ using UnityEngine.UI;
 public class TimeManager : MonoBehaviour
 {
     public bool pause;
+    public GameObject Player;
 
     private float timercalc;
     private int GameTimeDelta;
     public int scale;
     public int MissionTimer;
 
-    private int MissionCount;
+    public int MissionCount;
     public int[] MissionTimes;
+    public GameObject[] MissionDestinations;
 
     public GameObject VendingMachine;
     private int ShakeBase;
     private int ShakeHigh;
     private int ShakeLow;
     public int ShakeDeviation;
-    
-    public
+
 
 
 
@@ -44,6 +45,12 @@ public class TimeManager : MonoBehaviour
             timercalc = 0;
             GameTimeDelta = 0;
         }
+
+        if (Player.GetComponent<Collider2D>().IsTouching(MissionDestinations[MissionCount].GetComponent<Collider2D>()) && Player.GetComponent<PlayerCollisions>().info.Below == true)
+        {
+            MissionCount++;
+            SetMissionTimer(MissionCount);
+        }
     }
 
     private void Countdown(int GameTimeDelta)
@@ -52,7 +59,7 @@ public class TimeManager : MonoBehaviour
         {
             MissionTimer = MissionTimer - GameTimeDelta;
 
-            if(ShakeHigh > MissionTimer)
+            if (ShakeHigh > MissionTimer)
             {
                 VendingMachine.GetComponent<Shake>().ShakeVend();
                 ShakeHigh = 0;
@@ -77,7 +84,7 @@ public class TimeManager : MonoBehaviour
     public void SetMissionTimer(int MissionCount)
     {
         float ShakeLower = VendingMachine.GetComponent<Shake>().ShakeTime;
-        MissionTimer = MissionTimes[MissionCount];       
+        MissionTimer = MissionTimes[MissionCount];
         ShakeBase = Mathf.RoundToInt(Random.Range(ShakeLower + 1, MissionTimer - 1));
         ShakeHigh = ShakeBase + ShakeDeviation;
         ShakeLow = ShakeBase - ShakeDeviation;
