@@ -157,5 +157,7 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetFloat("yVelocity", body.velocity.y);
         anim.SetBool("Moving", xInput != 0);
+        if (jump) anim.SetTrigger("Jump");
+        anim.SetBool("OnGround", playerCollisions.info.Below);
     }
 }

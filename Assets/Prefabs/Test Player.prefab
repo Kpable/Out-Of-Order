@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6329829595445530560}
   - component: {fileID: 1967632791}
   - component: {fileID: 5396236378437478619}
+  - component: {fileID: 1967632786}
   m_Layer: 8
   m_Name: Test Player
   m_TagString: Untagged
@@ -122,9 +123,10 @@ MonoBehaviour:
   lowJumpMultiplier: 6
   wallSlideMultiplier: 0.35
   wallSliding: 0
-  wallJumpClimb: {x: 2, y: 3.5}
-  wallJumpOff: {x: 3.5, y: 2.5}
-  wallLeap: {x: 4.5, y: 3.5}
+  wallJumpClimb: {x: 10, y: 20}
+  wallJumpOff: {x: 10, y: 15}
+  wallLeap: {x: 15, y: 15}
+  wallStickTime: 0.25
 --- !u!114 &1967632791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +163,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1
+--- !u!95 &1967632786
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830496379862778103}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: df14da8a1b64b7b4ba2e7797bcebd1cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
