@@ -21,7 +21,8 @@ public class PlayerController : MonoBehaviour
     public Vector2 wallJumpClimb;
     public Vector2 wallJumpOff;
     public Vector2 wallLeap;
-
+    float timeToWallUnstick;
+    public float wallStickTime = .25f;
 
     Rigidbody2D body;
 
@@ -75,8 +76,25 @@ public class PlayerController : MonoBehaviour
         if ((playerCollisions.info.Left || playerCollisions.info.Right) && !playerCollisions.info.Below && body.velocity.y < 0)
         {
             wallSliding = true;
-            if (playerCollisions.info.Left && xInput == -1 || playerCollisions.info.Right && xInput == 1)
-                body.velocity = new Vector2( 0, body.velocity.y);
+           // if (playerCollisions.info.Left && xInput == -1 || playerCollisions.info.Right && xInput == 1)
+            {
+
+                if (timeToWallUnstick > 0)
+                {
+                    body.velocity = new Vector2(0, body.velocity.y);
+
+                    if (xInput != 0 && ((xInput == -1 && playerCollisions.info.Right) || (xInput == 1 && playerCollisions.info.Left)))
+                    {
+                        timeToWallUnstick -= Time.deltaTime;
+                    }
+                    else
+                        timeToWallUnstick = wallStickTime;
+                }
+                else
+                {
+                    timeToWallUnstick = wallStickTime;
+                }
+            }
         }
         else
         {
@@ -92,19 +110,20 @@ public class PlayerController : MonoBehaviour
                 vel.x *= ((playerCollisions.info.Left) ? 1 : -1);
                 body.velocity = vel;
             }
-            // hop off wall
-            else if(playerCollisions.info.Left || playerCollisions.info.Right)
-            {
-                Vector2 vel = wallJumpOff;
-                vel.x *= ((playerCollisions.info.Left) ? 1 : -1);
-                body.velocity = vel;
-            }
             // Wall Jump climb
             else if((playerCollisions.info.Left && xInput == -1 ) || (playerCollisions.info.Right && xInput == 1))
             {
                 Vector2 vel = wallJumpClimb;
                 vel.x *= ((playerCollisions.info.Left) ? 1 : -1);
                 body.velocity = vel;
+            }
+            else
+            {
+                // hop off wall
+                
+                Vector2 vel = wallJumpOff;
+                vel.x *= ((playerCollisions.info.Left) ? 1 : -1);
+                body.velocity = vel;                
             }
         }
     }
