@@ -38,8 +38,10 @@ public class PlayerController : MonoBehaviour
 
         float targetVelocityX = xInput * moveSpeed * Time.deltaTime;
         //Vector2 movement  = Vector2.right * Mathf.SmoothDamp(body.velocity.x, targetVelocityX, ref smoothing, accelerationTimeGrounded );
-
-        body.velocity += movement;
+        if (movement.x != 0)
+            body.velocity += movement;
+        else
+            body.velocity = Vector2.up * body.velocity.y;
         Debug.Log(movement);
         if (jump)
         {
@@ -54,5 +56,16 @@ public class PlayerController : MonoBehaviour
         {
             body.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
+
+        Flip();
+    }
+
+    void Flip()
+
+    {
+        var localScale = transform.localScale;
+        if(body.velocity.x !=0) 
+            localScale.x = Mathf.Sign(body.velocity.x);
+        transform.localScale = localScale;
     }
 }
