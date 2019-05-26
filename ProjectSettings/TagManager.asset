@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: TargetIndicator
+    uniqueID: 1419300949
+    locked: 0
   - name: Front Sign
     uniqueID: 4211938161
     locked: 0
