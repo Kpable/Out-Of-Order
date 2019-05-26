@@ -549,7 +549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.7741923, y: 19.999998, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1497,6 +1497,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vending Machine
       objectReference: {fileID: 0}
+    - target: {fileID: 7756994637815194627, guid: 72b65773edaee7245a2bf720aa86d4e2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7756994637815194629, guid: 72b65773edaee7245a2bf720aa86d4e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1597,6 +1602,7 @@ MonoBehaviour:
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 0}
   outOfOrderSign: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!1001 &1850250408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14149,15 +14155,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: ' Row A'
       objectReference: {fileID: 0}
-    - target: {fileID: 2648992835635502553, guid: b8792a5286ec0b14d852bfaea8e731b9,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1577884881398990431, guid: b8792a5286ec0b14d852bfaea8e731b9,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648992835635502553, guid: b8792a5286ec0b14d852bfaea8e731b9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8792a5286ec0b14d852bfaea8e731b9, type: 3}
@@ -19774,7 +19780,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8f4cfec1624af734c844f72fc36ee3b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f49634debd7c19e49aea9ee60d69aec7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19906,6 +19912,7 @@ MonoBehaviour:
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 2029079243}
   outOfOrderSign: {fileID: 950328979}
+  clip: {fileID: 0}
 --- !u!1 &4108289452308614372
 GameObject:
   m_ObjectHideFlags: 0
@@ -31228,7 +31235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6947112460657580072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 13.5, z: 0.5}
+  m_LocalPosition: {x: 2.5, y: 16, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6947112460474585632}
@@ -31271,7 +31278,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8f4cfec1624af734c844f72fc36ee3b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f49634debd7c19e49aea9ee60d69aec7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -31478,6 +31485,7 @@ MonoBehaviour:
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 2029079243}
   outOfOrderSign: {fileID: 950328979}
+  clip: {fileID: 0}
 --- !u!82 &6947112461126089242
 AudioSource:
   m_ObjectHideFlags: 0
@@ -33536,7 +33544,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8f4cfec1624af734c844f72fc36ee3b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f49634debd7c19e49aea9ee60d69aec7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

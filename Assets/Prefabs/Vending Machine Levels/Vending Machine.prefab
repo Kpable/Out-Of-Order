@@ -1175,7 +1175,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8f4cfec1624af734c844f72fc36ee3b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f49634debd7c19e49aea9ee60d69aec7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1519,6 +1519,7 @@ MonoBehaviour:
   MissionCount: 0
   MissionTimes: 
   MissionDestinations: []
+  MissionIndicators: []
   VendingMachine: {fileID: 0}
   ShakeBase: 0
   ShakeHigh: 0
@@ -1527,6 +1528,7 @@ MonoBehaviour:
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 0}
   outOfOrderSign: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!1 &7756994637936593096
 GameObject:
   m_ObjectHideFlags: 0
