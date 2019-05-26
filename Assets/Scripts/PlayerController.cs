@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Rewired;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -32,20 +34,34 @@ public class PlayerController : MonoBehaviour
 
     PlayerCollisions playerCollisions;
 
+    public int playerId = 0;
+    private Player player; // The Rewired Player
+
+
     // Start is called before the first frame update
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         playerCollisions = GetComponent<PlayerCollisions>();
         anim = GetComponent<Animator>();
+        player = ReInput.players.GetPlayer(playerId);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        xInput = Input.GetAxisRaw("Horizontal");
-
-        jump = Input.GetButtonDown("Jump");
+        xInput = player.GetAxis("Move Horizontal");
+        if (xInput < 0) xInput = -1;
+        if (xInput > 0) xInput = 1;
+        if ((xInput > -1 && xInput < 0) && (xInput < 1 && xInput > 0)) xInput = 0;
+        Debug.Log("Xinput:" + xInput);
+        jump = player.GetButtonDown("Jump");
+        
+        if(player.GetButtonDown("Reset"))
+        {
+            SceneTransitioner.Instance.RestartScene();
+        }
     }
 
     private void FixedUpdate()
