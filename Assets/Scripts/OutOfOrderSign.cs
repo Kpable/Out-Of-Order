@@ -57,8 +57,8 @@ public class OutOfOrderSign : MonoBehaviour
             body.simulated = true;
         }
 
-        if (transform.position.y == PlayerObject.position.y ||
-            transform.position.y < PlayerObject.position.y) 
+        if (vCam.transform.position.y == PlayerObject.position.y ||
+            vCam.transform.position.y < PlayerObject.position.y) 
         {
             Invoke("HideSign", 3f);
             vCam.Follow = PlayerObject;
