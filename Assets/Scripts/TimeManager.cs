@@ -16,6 +16,7 @@ public class TimeManager : MonoBehaviour
     public int MissionCount;
     public int[] MissionTimes;
     public GameObject[] MissionDestinations;
+    public GameObject[] MissionIndicators;
 
     public GameObject VendingMachine;
 
@@ -58,7 +59,9 @@ public class TimeManager : MonoBehaviour
             if (Player.GetComponent<Collider2D>().IsTouching(MissionDestinations[MissionCount].GetComponent<Collider2D>()) && Player.GetComponent<PlayerCollisions>().info.Below == true)
             {
                 MissionDestinations[MissionCount].SetActive(false);
+                MissionIndicators[MissionCount].SetActive(false);
                 MissionCount++;
+                
                 SetMissionTimer(MissionCount);
 
             }
@@ -101,6 +104,7 @@ public class TimeManager : MonoBehaviour
     public void SetMissionTimer(int MissionCount)
     {
         MissionTimer = MissionTimes[MissionCount];
+        MissionIndicators[MissionCount].SetActive(true);
         ShakeBase = Mathf.RoundToInt(Random.Range(ShakeDeviation + 1, MissionTimer - 1));
         ShakeHigh = ShakeBase + ShakeDeviation;
         ShakeLow = ShakeBase - ShakeDeviation;
