@@ -10,6 +10,14 @@ public class Shake : MonoBehaviour
     public int ShakeVibrate;
     public bool Complete;
 
+    public AudioSource audioSrc;
+    public AudioClip clip;
+
+    private void Awake()
+    {
+        audioSrc = GetComponent<AudioSource>();
+
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +41,9 @@ public class Shake : MonoBehaviour
 
             transform.DOShakeRotation(ShakeTime, new Vector3(0, 0, ShakeStrength), ShakeVibrate, 90, true)
                 .OnComplete(() => { Complete = !Complete; });
+
+            if (clip!= null)
+                audioSrc.PlayOneShot(clip);
         }
     }
 
