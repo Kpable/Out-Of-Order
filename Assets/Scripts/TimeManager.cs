@@ -31,6 +31,16 @@ public class TimeManager : MonoBehaviour
     public OutOfOrderSign outOfOrderSign;
     private bool OutofOrderRun;
 
+    private AudioSource audioSrc;
+    public AudioClip clip;
+
+    private void Awake()
+    {
+        audioSrc = GetComponent<AudioSource>();
+        if (audioSrc == null)
+            audioSrc = gameObject.AddComponent<AudioSource>();
+
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -64,6 +74,8 @@ public class TimeManager : MonoBehaviour
                 
                 SetMissionTimer(MissionCount);
 
+                if (clip)
+                    audioSrc.PlayOneShot(clip);
             }
         }
         else
