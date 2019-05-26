@@ -3,7 +3,10 @@ guid: 232bfd8415fc2c34caef24d55613a08d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Player: {instanceID: 0}
+  - VendingMachine: {instanceID: 0}
+  - UIParent: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

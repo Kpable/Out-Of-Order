@@ -32,6 +32,7 @@ public class TimeManager : MonoBehaviour
     {
         MissionCount = 0;
         SetMissionTimer(MissionCount);
+        VendingMachine = this.gameObject;
     }
 
     // Update is called once per frame
