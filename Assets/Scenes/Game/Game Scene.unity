@@ -549,7 +549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.7710834, y: 19.999998, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -723,7 +723,7 @@ PrefabInstance:
     - target: {fileID: 5462148547673780118, guid: 640043ebe53c51e4c81cefd4ca77665f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.93
+      value: 20.93
       objectReference: {fileID: 0}
     - target: {fileID: 5462148547673780118, guid: 640043ebe53c51e4c81cefd4ca77665f,
         type: 3}
@@ -957,6 +957,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: F07
+      objectReference: {fileID: 0}
+    - target: {fileID: 878537195363571317, guid: 4f6bc7ff6f2130348afed1392f7fbef4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 878537195363571312, guid: 4f6bc7ff6f2130348afed1392f7fbef4,
         type: 3}
@@ -1597,6 +1602,7 @@ MonoBehaviour:
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 0}
   outOfOrderSign: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!1001 &1850250408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1698,7 +1704,7 @@ PrefabInstance:
     - target: {fileID: 2884365312121812287, guid: ed20d4e222ca30740bd19e457c4edb62,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2884365312121812284, guid: ed20d4e222ca30740bd19e457c4edb62,
         type: 3}
@@ -1838,12 +1844,12 @@ PrefabInstance:
     - target: {fileID: 764647654595289045, guid: 3632afc716136a244b985f26efe2b155,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 17.39
       objectReference: {fileID: 0}
     - target: {fileID: 764647654595289045, guid: 3632afc716136a244b985f26efe2b155,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 20.93
       objectReference: {fileID: 0}
     - target: {fileID: 764647654595289045, guid: 3632afc716136a244b985f26efe2b155,
         type: 3}
@@ -19896,8 +19902,8 @@ MonoBehaviour:
   - {fileID: 8953619322765744546}
   MissionIndicators:
   - {fileID: 1945636802}
-  - {fileID: 2052814415}
   - {fileID: 770780828}
+  - {fileID: 2052814415}
   VendingMachine: {fileID: 0}
   ShakeBase: 0
   ShakeHigh: 0
@@ -19906,6 +19912,7 @@ MonoBehaviour:
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 2029079243}
   outOfOrderSign: {fileID: 950328979}
+  clip: {fileID: 0}
 --- !u!1 &4108289452308614372
 GameObject:
   m_ObjectHideFlags: 0
@@ -31443,7 +31450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &6947112461126089241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31478,6 +31485,7 @@ MonoBehaviour:
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 2029079243}
   outOfOrderSign: {fileID: 950328979}
+  clip: {fileID: 0}
 --- !u!82 &6947112461126089242
 AudioSource:
   m_ObjectHideFlags: 0
