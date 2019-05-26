@@ -18,9 +18,10 @@ public class TimeManager : MonoBehaviour
     public GameObject[] MissionDestinations;
 
     public GameObject VendingMachine;
-    private int ShakeBase;
-    private int ShakeHigh;
-    private int ShakeLow;
+
+    [SerializeField] private int ShakeBase;
+    [SerializeField] private int ShakeHigh;
+    [SerializeField] private int ShakeLow;
     public int ShakeDeviation;
 
     public GameObject UIParent;
@@ -83,9 +84,8 @@ public class TimeManager : MonoBehaviour
 
     public void SetMissionTimer(int MissionCount)
     {
-        float ShakeLower = VendingMachine.GetComponent<Shake>().ShakeTime;
         MissionTimer = MissionTimes[MissionCount];
-        ShakeBase = Mathf.RoundToInt(Random.Range(ShakeLower + 1, MissionTimer - 1));
+        ShakeBase = Mathf.RoundToInt(Random.Range(ShakeDeviation + 1, MissionTimer - 1));
         ShakeHigh = ShakeBase + ShakeDeviation;
         ShakeLow = ShakeBase - ShakeDeviation;
     }

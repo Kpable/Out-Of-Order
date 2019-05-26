@@ -312,7 +312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.5, z: -9}
+  m_LocalPosition: {x: 2.7966099, y: -4, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -406,6 +406,11 @@ PrefabInstance:
       propertyPath: VendingMachine
       value: 
       objectReference: {fileID: 2560599654122156719}
+    - target: {fileID: 6754640389288543546, guid: 1a55a28b02bf2314cba4b81df055b63a,
+        type: 3}
+      propertyPath: MissionTimes.Array.data[0]
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a55a28b02bf2314cba4b81df055b63a, type: 3}
 --- !u!1 &1392163533
@@ -477,7 +482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392163533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.5, z: -9}
+  m_LocalPosition: {x: 1.5, y: -4.3, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 390522622}
@@ -637,12 +642,12 @@ PrefabInstance:
     - target: {fileID: 75024173060056413, guid: 2044990dcfd9e8540a80f570c5e44c68,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 75024173060056413, guid: 2044990dcfd9e8540a80f570c5e44c68,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: -4.3
       objectReference: {fileID: 0}
     - target: {fileID: 75024173060056413, guid: 2044990dcfd9e8540a80f570c5e44c68,
         type: 3}
@@ -688,6 +693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 75024173060056414, guid: 2044990dcfd9e8540a80f570c5e44c68,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2044990dcfd9e8540a80f570c5e44c68, type: 3}
@@ -775,7 +785,7 @@ PrefabInstance:
     - target: {fileID: 2560599654178417437, guid: b8792a5286ec0b14d852bfaea8e731b9,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2560599654178417435, guid: b8792a5286ec0b14d852bfaea8e731b9,
         type: 3}
@@ -845,6 +855,11 @@ PrefabInstance:
     - target: {fileID: 2648992835635502553, guid: b8792a5286ec0b14d852bfaea8e731b9,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577884881398990431, guid: b8792a5286ec0b14d852bfaea8e731b9,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
