@@ -27,6 +27,7 @@ public class TimeManager : MonoBehaviour
 
     public GameObject UIParent;
     public GameObject LevelDesignater;
+    public OutOfOrderSign outOfOrderSign;
 
 
     // Start is called before the first frame update
@@ -90,7 +91,7 @@ public class TimeManager : MonoBehaviour
         }
         if (MissionTimer < 0)
         {
-            //Mission Fail
+            outOfOrderSign.Fail();
         }
     }
 
