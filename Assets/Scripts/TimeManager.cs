@@ -19,12 +19,14 @@ public class TimeManager : MonoBehaviour
 
     public GameObject VendingMachine;
 
+
     [SerializeField] private int ShakeBase;
     [SerializeField] private int ShakeHigh;
     [SerializeField] private int ShakeLow;
     public int ShakeDeviation;
 
     public GameObject UIParent;
+    public GameObject LevelDesignater;
 
 
     // Start is called before the first frame update
@@ -48,11 +50,19 @@ public class TimeManager : MonoBehaviour
             GameTimeDelta = 0;
         }
 
-        if (Player.GetComponent<Collider2D>().IsTouching(MissionDestinations[MissionCount].GetComponent<Collider2D>()) && Player.GetComponent<PlayerCollisions>().info.Below == true)
+        if (MissionCount < MissionDestinations.Length)
         {
-            MissionDestinations[MissionCount].SetActive(false);
-            MissionCount++;
-            SetMissionTimer(MissionCount);
+            if (Player.GetComponent<Collider2D>().IsTouching(MissionDestinations[MissionCount].GetComponent<Collider2D>()) && Player.GetComponent<PlayerCollisions>().info.Below == true)
+            {
+                MissionDestinations[MissionCount].SetActive(false);
+                MissionCount++;
+                SetMissionTimer(MissionCount);
+
+            }
+        }
+        else
+        {
+            LevelDesignater.GetComponent<LevelChange>().LevelProgress();
         }
     }
 
