@@ -19,7 +19,18 @@ public class LevelChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Period))
+        {
+            Levels[LevelNum].SetActive(false);
+            LevelNum++;
+            Levels[LevelNum].SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Comma))
+        {
+            Levels[LevelNum].SetActive(false);
+            LevelNum--;
+            Levels[LevelNum].SetActive(true);
+        }
     }
 
     public void LevelProgress()
@@ -29,4 +40,6 @@ public class LevelChange : MonoBehaviour
         Levels[LevelNum].SetActive(true);
         
     }
+
+
 }
