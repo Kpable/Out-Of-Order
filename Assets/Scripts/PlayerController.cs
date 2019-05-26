@@ -51,11 +51,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        xInput = player.GetAxis("Move Horizontal");
-        Debug.Log("XinputRaw:" + xInput);
-        if (xInput < 0) xInput = -1;
-        if (xInput > 0) xInput = 1;
-        if ((xInput > -1 && xInput < 0) && (xInput < 1 && xInput > 0)) xInput = 0;
+        xInput = player.GetAxisRaw("Move Horizontal");
+        Debug.Log("Xinput Raw:" + xInput);
+
+        if (xInput < 0 && xInput >= -1) xInput = -1;
+        else if (xInput > 0 && xInput <= 1) xInput = 1;
+        //else if ((xInput > -1 && xInput < 0) && (xInput < 1 && xInput > 0)) xInput = 0;
+        if(xInput != -1 && xInput != 1) xInput = 0;
 
         Debug.Log("Xinput:" + xInput);
         jump = player.GetButtonDown("Jump");
