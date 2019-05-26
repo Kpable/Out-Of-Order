@@ -52,9 +52,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         xInput = player.GetAxis("Move Horizontal");
+        Debug.Log("XinputRaw:" + xInput);
         if (xInput < 0) xInput = -1;
         if (xInput > 0) xInput = 1;
         if ((xInput > -1 && xInput < 0) && (xInput < 1 && xInput > 0)) xInput = 0;
+
         Debug.Log("Xinput:" + xInput);
         jump = player.GetButtonDown("Jump");
         
@@ -199,5 +201,6 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("Moving", xInput != 0);
         if (jump) anim.SetTrigger("Jump");
         anim.SetBool("OnGround", playerCollisions.info.Below);
+        anim.SetBool("WallSliding", wallSliding);
     }
 }
