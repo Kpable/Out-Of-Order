@@ -22,8 +22,10 @@ public class PlayerController : MonoBehaviour
     public Vector2 wallJumpClimb;
     public Vector2 wallJumpOff;
     public Vector2 wallLeap;
-    float timeToWallUnstick;
+    float wallLeapTimer;
+    float timeToUnstick;
     public float wallStickTime = .25f;
+    bool canWallSlide;
 
     Rigidbody2D body;
     Animator anim;
@@ -60,6 +62,12 @@ public class PlayerController : MonoBehaviour
                
         Debug.Log(movement);
 
+        if (playerCollisions.info.Below)
+        {
+            canWallSlide = true;
+            timeToUnstick = wallStickTime;            
+        }
+
         HandleJump();
 
         GravityAdjustment();
@@ -76,33 +84,49 @@ public class PlayerController : MonoBehaviour
         }
 
         // if wall to left or right, is in the air, and is falling
-        if ((playerCollisions.info.Left || playerCollisions.info.Right) && !playerCollisions.info.Below && body.velocity.y < 0)
+        if ((playerCollisions.info.Left || playerCollisions.info.Right) && !playerCollisions.info.Below && body.velocity.y < 0 && canWallSlide)
         {
             wallSliding = true;
            // if (playerCollisions.info.Left && xInput == -1 || playerCollisions.info.Right && xInput == 1)
             {
-
-                if (timeToWallUnstick > 0)
+                if (wallLeapTimer > 0)
                 {
                     body.velocity = new Vector2(0, body.velocity.y);
 
                     if (xInput != 0 && ((xInput == -1 && playerCollisions.info.Right) || (xInput == 1 && playerCollisions.info.Left)))
                     {
-                        timeToWallUnstick -= Time.deltaTime;
+                        wallLeapTimer -= Time.deltaTime;
                     }
                     else
-                        timeToWallUnstick = wallStickTime;
+                        wallLeapTimer = wallStickTime;
                 }
                 else
                 {
-                    timeToWallUnstick = wallStickTime;
+                    wallLeapTimer = wallStickTime;
                 }
-            }
+            }            
         }
         else
         {
             wallSliding = false;
         }
+
+        if(wallSliding)
+        {
+            timeToUnstick -= Time.deltaTime;
+            if(timeToUnstick<= 0)
+            {
+                timeToUnstick = wallStickTime;
+                canWallSlide = false;
+                wallSliding = false;
+            }
+        }
+        else
+        {
+            canWallSlide = true;
+        }
+
+
 
         if (jump && wallSliding)
         {
