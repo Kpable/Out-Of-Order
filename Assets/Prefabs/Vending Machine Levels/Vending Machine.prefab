@@ -1,84 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &229825504
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 229825505}
-  - component: {fileID: 229825506}
-  m_Layer: 0
-  m_Name: A02-2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &229825505
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229825504}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.37, y: 20.926, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7756994637399493691}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &229825506
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229825504}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5fb8fd2a7a05c174bb62f33cc84deda5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.75, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &590559776
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,85 +276,6 @@ Transform:
   m_Father: {fileID: 7756994638483329637}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1703384616
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1703384617}
-  - component: {fileID: 1703384618}
-  m_Layer: 0
-  m_Name: A02-1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1703384617
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703384616}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.39, y: 20.93, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7756994637399493691}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1703384618
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703384616}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9d6c1d9f40871f846acab3e1f08a4f64, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.14, y: 0.08}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1870399606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,8 +1104,6 @@ Transform:
   m_Children:
   - {fileID: 7756994637614990900}
   - {fileID: 7756994637492925655}
-  - {fileID: 1703384617}
-  - {fileID: 229825505}
   m_Father: {fileID: 7756994637815194629}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1560,6 +1400,8 @@ MonoBehaviour:
   ShakeStrength: 25
   ShakeVibrate: 1
   Complete: 0
+  audioSrc: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!1 &7756994637936593096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1572,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1785,11 +1632,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &7217598210941795615 stripped
@@ -1805,6 +1647,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1860,11 +1707,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &7217598210916390826 stripped
@@ -1880,6 +1722,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 3394996073240496985, guid: d7a07cd901adb344cbc1226364ad0eba,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Orange Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217456143495884616, guid: d7a07cd901adb344cbc1226364ad0eba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1935,11 +1782,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3394996073240496985, guid: d7a07cd901adb344cbc1226364ad0eba,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Orange Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a07cd901adb344cbc1226364ad0eba, type: 3}
 --- !u!4 &7217456143275572310 stripped
@@ -1955,6 +1797,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 2218967982927892238, guid: 084179b8a3b440d47899fe058088e64d,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Green Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 6196855712672459551, guid: 084179b8a3b440d47899fe058088e64d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2010,11 +1857,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2218967982927892238, guid: 084179b8a3b440d47899fe058088e64d,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Green Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 084179b8a3b440d47899fe058088e64d, type: 3}
 --- !u!4 &6196855712727066787 stripped
@@ -2030,6 +1872,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2085,11 +1932,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &4686131324740005162 stripped
@@ -2105,6 +1947,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1619364097}
     m_Modifications:
+    - target: {fileID: 274638180379222816, guid: 813d0ed617452204f91d5edec274ffa5,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag O Chips Blue Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 5258877356492425009, guid: 813d0ed617452204f91d5edec274ffa5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2160,11 +2007,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 274638180379222816, guid: 813d0ed617452204f91d5edec274ffa5,
-        type: 3}
-      propertyPath: m_Name
-      value: Bag O Chips Blue Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 813d0ed617452204f91d5edec274ffa5, type: 3}
 --- !u!4 &5258877356541396255 stripped
@@ -2180,6 +2022,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2234,11 +2081,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
@@ -2330,6 +2172,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1619364097}
     m_Modifications:
+    - target: {fileID: 3378922029193839890, guid: fc3b8f7f631f53f49a695255d58f3fd0,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag O Chips Green Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 7336552090418258179, guid: fc3b8f7f631f53f49a695255d58f3fd0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2385,11 +2232,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3378922029193839890, guid: fc3b8f7f631f53f49a695255d58f3fd0,
-        type: 3}
-      propertyPath: m_Name
-      value: Bag O Chips Green Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc3b8f7f631f53f49a695255d58f3fd0, type: 3}
 --- !u!4 &7336552089737700751 stripped
@@ -2405,6 +2247,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 2218967982927892238, guid: 084179b8a3b440d47899fe058088e64d,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Green Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 6196855712672459551, guid: 084179b8a3b440d47899fe058088e64d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2459,11 +2306,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2218967982927892238, guid: 084179b8a3b440d47899fe058088e64d,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Green Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 084179b8a3b440d47899fe058088e64d, type: 3}
@@ -2555,6 +2397,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1619364097}
     m_Modifications:
+    - target: {fileID: 3378922029193839890, guid: fc3b8f7f631f53f49a695255d58f3fd0,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag O Chips Green Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7336552090418258179, guid: fc3b8f7f631f53f49a695255d58f3fd0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2610,11 +2457,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3378922029193839890, guid: fc3b8f7f631f53f49a695255d58f3fd0,
-        type: 3}
-      propertyPath: m_Name
-      value: Bag O Chips Green Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc3b8f7f631f53f49a695255d58f3fd0, type: 3}
 --- !u!4 &7336552090247726183 stripped
@@ -2630,6 +2472,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 2808632160635682578, guid: 582f8783de0531942bd253f190de619d,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Red 2 Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 7912464997458746115, guid: 582f8783de0531942bd253f190de619d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2685,11 +2532,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2808632160635682578, guid: 582f8783de0531942bd253f190de619d,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Red 2 Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582f8783de0531942bd253f190de619d, type: 3}
 --- !u!4 &7912464996522674476 stripped
@@ -2705,6 +2547,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2760,11 +2607,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &4686131325284501339 stripped
@@ -2780,6 +2622,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1619364097}
     m_Modifications:
+    - target: {fileID: 274638180379222816, guid: 813d0ed617452204f91d5edec274ffa5,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag O Chips Blue Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5258877356492425009, guid: 813d0ed617452204f91d5edec274ffa5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2835,11 +2682,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 274638180379222816, guid: 813d0ed617452204f91d5edec274ffa5,
-        type: 3}
-      propertyPath: m_Name
-      value: Bag O Chips Blue Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 813d0ed617452204f91d5edec274ffa5, type: 3}
 --- !u!4 &5258877357171508481 stripped
@@ -2855,6 +2697,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2910,11 +2757,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &4686131325297986603 stripped
@@ -2930,6 +2772,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Purple Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 9032016119863942658, guid: 02b0587d1d74c764c95ed47d9bb453b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2984,11 +2831,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Purple Variant (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b0587d1d74c764c95ed47d9bb453b3, type: 3}
@@ -3080,6 +2922,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3135,11 +2982,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &7217598211113058130 stripped
@@ -3155,6 +2997,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 2808632160635682578, guid: 582f8783de0531942bd253f190de619d,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Red 2 Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7912464997458746115, guid: 582f8783de0531942bd253f190de619d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3210,11 +3057,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2808632160635682578, guid: 582f8783de0531942bd253f190de619d,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Red 2 Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582f8783de0531942bd253f190de619d, type: 3}
 --- !u!4 &7912464998446183185 stripped
@@ -3230,6 +3072,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3285,11 +3132,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &7217598211997336996 stripped
@@ -3305,6 +3147,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3360,11 +3207,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &4686131325980579875 stripped
@@ -3380,6 +3222,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Purple Variant (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 9032016119863942658, guid: 02b0587d1d74c764c95ed47d9bb453b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3435,11 +3282,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Purple Variant (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b0587d1d74c764c95ed47d9bb453b3, type: 3}
 --- !u!4 &9032016121173861543 stripped
@@ -3455,6 +3297,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Yellow
+      objectReference: {fileID: 0}
     - target: {fileID: 3624384771393624088, guid: f6cb2937e2d423c42ab9373761162e45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3510,11 +3357,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Yellow
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6cb2937e2d423c42ab9373761162e45, type: 3}
 --- !u!4 &3624384772787504618 stripped
@@ -3530,6 +3372,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Purple Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 9032016119863942658, guid: 02b0587d1d74c764c95ed47d9bb453b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3585,11 +3432,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Purple Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b0587d1d74c764c95ed47d9bb453b3, type: 3}
 --- !u!4 &9032016121159780288 stripped
@@ -3605,6 +3447,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 2808632160635682578, guid: 582f8783de0531942bd253f190de619d,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Red 2 Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7912464997458746115, guid: 582f8783de0531942bd253f190de619d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3660,11 +3507,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2808632160635682578, guid: 582f8783de0531942bd253f190de619d,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Red 2 Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582f8783de0531942bd253f190de619d, type: 3}
 --- !u!4 &7912464998051188048 stripped
@@ -3680,6 +3522,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 2218967982927892238, guid: 084179b8a3b440d47899fe058088e64d,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Green Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 6196855712672459551, guid: 084179b8a3b440d47899fe058088e64d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3735,11 +3582,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2218967982927892238, guid: 084179b8a3b440d47899fe058088e64d,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Green Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 084179b8a3b440d47899fe058088e64d, type: 3}
 --- !u!4 &6196855713566828356 stripped
@@ -3755,6 +3597,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3810,11 +3657,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &4686131326183738212 stripped
@@ -3830,6 +3672,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3885,11 +3732,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &7217598212633804041 stripped
@@ -3905,6 +3747,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3960,11 +3807,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &4686131326136204021 stripped
@@ -3980,6 +3822,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Yellow (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3624384771393624088, guid: f6cb2937e2d423c42ab9373761162e45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4034,11 +3881,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Yellow (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6cb2937e2d423c42ab9373761162e45, type: 3}
@@ -4130,6 +3972,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Yellow (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 3624384771393624088, guid: f6cb2937e2d423c42ab9373761162e45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4185,11 +4032,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Yellow (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6cb2937e2d423c42ab9373761162e45, type: 3}
 --- !u!4 &3624384771841444105 stripped
@@ -4205,6 +4047,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Yellow (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 3624384771393624088, guid: f6cb2937e2d423c42ab9373761162e45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4260,11 +4107,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Yellow (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6cb2937e2d423c42ab9373761162e45, type: 3}
 --- !u!4 &3624384771751331259 stripped
@@ -4280,6 +4122,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958709295}
     m_Modifications:
+    - target: {fileID: 3394996073240496985, guid: d7a07cd901adb344cbc1226364ad0eba,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Orange Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 7217456143495884616, guid: d7a07cd901adb344cbc1226364ad0eba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4335,11 +4182,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3394996073240496985, guid: d7a07cd901adb344cbc1226364ad0eba,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Orange Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a07cd901adb344cbc1226364ad0eba, type: 3}
 --- !u!4 &7217456142030170392 stripped
@@ -4355,6 +4197,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4410,11 +4257,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &4686131326362370771 stripped
@@ -4430,6 +4272,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Purple Variant (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 9032016119863942658, guid: 02b0587d1d74c764c95ed47d9bb453b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4485,11 +4332,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Purple Variant (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b0587d1d74c764c95ed47d9bb453b3, type: 3}
 --- !u!4 &9032016120521463561 stripped
@@ -4505,6 +4347,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1870399607}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4560,11 +4407,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &4686131326290384103 stripped
@@ -4580,6 +4422,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4635,11 +4482,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260331114014 stripped
@@ -4655,6 +4497,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 3394996073240496985, guid: d7a07cd901adb344cbc1226364ad0eba,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Orange Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217456143495884616, guid: d7a07cd901adb344cbc1226364ad0eba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4710,11 +4557,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3394996073240496985, guid: d7a07cd901adb344cbc1226364ad0eba,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Orange Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a07cd901adb344cbc1226364ad0eba, type: 3}
 --- !u!4 &1121378274466077717 stripped
@@ -4730,6 +4572,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (26)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4785,11 +4632,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (26)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260299114883 stripped
@@ -4805,6 +4647,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 2218967982927892238, guid: 084179b8a3b440d47899fe058088e64d,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Green Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 6196855712672459551, guid: 084179b8a3b440d47899fe058088e64d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4860,11 +4707,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2218967982927892238, guid: 084179b8a3b440d47899fe058088e64d,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Green Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 084179b8a3b440d47899fe058088e64d, type: 3}
 --- !u!4 &4492840863982727693 stripped
@@ -4880,6 +4722,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4935,11 +4782,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260280565916 stripped
@@ -4955,6 +4797,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5010,11 +4857,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &3075424296858220605 stripped
@@ -5030,6 +4872,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5085,11 +4932,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260236511000 stripped
@@ -5105,6 +4947,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (24)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5160,11 +5007,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (24)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260207791370 stripped
@@ -5180,6 +5022,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (13)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5235,11 +5082,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (13)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260170424219 stripped
@@ -5255,6 +5097,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Yellow (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 3624384771393624088, guid: f6cb2937e2d423c42ab9373761162e45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5310,11 +5157,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Yellow (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6cb2937e2d423c42ab9373761162e45, type: 3}
 --- !u!4 &6478998955978132363 stripped
@@ -5330,6 +5172,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (27)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5385,11 +5232,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (27)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260142243296 stripped
@@ -5405,6 +5247,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (34)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5460,11 +5307,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (34)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260085674665 stripped
@@ -5480,6 +5322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5535,11 +5382,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260054259104 stripped
@@ -5555,6 +5397,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5610,11 +5457,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (15)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392259984110329 stripped
@@ -5630,6 +5472,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (23)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5685,11 +5532,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (23)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392259973178511 stripped
@@ -5705,6 +5547,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (35)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5760,11 +5607,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (35)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392259949033758 stripped
@@ -5780,6 +5622,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5834,11 +5681,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
@@ -5930,6 +5772,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (22)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5985,11 +5832,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (22)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392259884759112 stripped
@@ -6005,6 +5847,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (25)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6060,11 +5907,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (25)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392259885052781 stripped
@@ -6080,6 +5922,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6135,11 +5982,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &3075424296929136671 stripped
@@ -6155,6 +5997,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (30)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6210,11 +6057,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (30)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392259846476958 stripped
@@ -6230,6 +6072,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (31)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6285,11 +6132,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (31)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392259828884897 stripped
@@ -6305,6 +6147,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6360,11 +6207,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260857912777 stripped
@@ -6380,6 +6222,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Yellow (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 3624384771393624088, guid: f6cb2937e2d423c42ab9373761162e45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6435,11 +6282,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Yellow (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6cb2937e2d423c42ab9373761162e45, type: 3}
 --- !u!4 &6478998955571369687 stripped
@@ -6455,6 +6297,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (38)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6510,11 +6357,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (38)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260778004827 stripped
@@ -6530,6 +6372,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (11)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6585,11 +6432,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (11)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260776216059 stripped
@@ -6605,6 +6447,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6660,11 +6507,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &3075424297315117495 stripped
@@ -6680,6 +6522,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (28)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6735,11 +6582,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (28)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260741076057 stripped
@@ -6755,6 +6597,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6810,11 +6657,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260743979197 stripped
@@ -6830,6 +6672,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6885,11 +6732,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (6)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260733312844 stripped
@@ -6905,6 +6747,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6960,11 +6807,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260735151126 stripped
@@ -6980,6 +6822,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7035,11 +6882,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (9)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260596701527 stripped
@@ -7055,6 +6897,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637936593097}
     m_Modifications:
+    - target: {fileID: 274638180379222816, guid: 813d0ed617452204f91d5edec274ffa5,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag O Chips Blue Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5258877356492425009, guid: 813d0ed617452204f91d5edec274ffa5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7110,11 +6957,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 274638180379222816, guid: 813d0ed617452204f91d5edec274ffa5,
-        type: 3}
-      propertyPath: m_Name
-      value: Bag O Chips Blue Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 813d0ed617452204f91d5edec274ffa5, type: 3}
 --- !u!4 &2548237571652077618 stripped
@@ -7130,6 +6972,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7185,11 +7032,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (10)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260554773228 stripped
@@ -7205,6 +7047,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (36)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7260,11 +7107,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (36)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260526445593 stripped
@@ -7280,6 +7122,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Yellow
+      objectReference: {fileID: 0}
     - target: {fileID: 3624384771393624088, guid: f6cb2937e2d423c42ab9373761162e45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7335,11 +7182,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Yellow
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6cb2937e2d423c42ab9373761162e45, type: 3}
 --- !u!4 &6478998955784533449 stripped
@@ -7355,6 +7197,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7410,11 +7257,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (8)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260404091736 stripped
@@ -7430,6 +7272,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7485,11 +7332,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260369206454 stripped
@@ -7505,6 +7347,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637936593097}
     m_Modifications:
+    - target: {fileID: 274638180379222816, guid: 813d0ed617452204f91d5edec274ffa5,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag O Chips Blue Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 5258877356492425009, guid: 813d0ed617452204f91d5edec274ffa5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7560,11 +7407,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 274638180379222816, guid: 813d0ed617452204f91d5edec274ffa5,
-        type: 3}
-      propertyPath: m_Name
-      value: Bag O Chips Blue Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 813d0ed617452204f91d5edec274ffa5, type: 3}
 --- !u!4 &2548237569767127485 stripped
@@ -7580,6 +7422,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (29)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7635,11 +7482,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (29)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261366131411 stripped
@@ -7655,6 +7497,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (20)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7710,11 +7557,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (20)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261340801372 stripped
@@ -7730,6 +7572,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (16)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7785,11 +7632,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (16)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261311825541 stripped
@@ -7805,6 +7647,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 3394996073240496985, guid: d7a07cd901adb344cbc1226364ad0eba,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Orange Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 7217456143495884616, guid: d7a07cd901adb344cbc1226364ad0eba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7859,11 +7706,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3394996073240496985, guid: d7a07cd901adb344cbc1226364ad0eba,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Orange Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a07cd901adb344cbc1226364ad0eba, type: 3}
@@ -7955,6 +7797,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 2808632160635682578, guid: 582f8783de0531942bd253f190de619d,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Red 2 Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 7912464997458746115, guid: 582f8783de0531942bd253f190de619d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8010,11 +7857,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2808632160635682578, guid: 582f8783de0531942bd253f190de619d,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Red 2 Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582f8783de0531942bd253f190de619d, type: 3}
 --- !u!4 &461858073198023650 stripped
@@ -8030,6 +7872,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Pink (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 4686131324608272053, guid: 1fc955d30c1017f49b31dfb31a612c64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8085,11 +7932,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737613367212749476, guid: 1fc955d30c1017f49b31dfb31a612c64,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Pink (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc955d30c1017f49b31dfb31a612c64, type: 3}
 --- !u!4 &3075424297782244654 stripped
@@ -8105,6 +7947,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (21)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8160,11 +8007,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (21)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261160356485 stripped
@@ -8180,6 +8022,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (37)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8235,11 +8082,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (37)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261100712237 stripped
@@ -8255,6 +8097,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (19)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8310,11 +8157,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (19)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261071408314 stripped
@@ -8330,6 +8172,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (17)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8385,11 +8232,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (17)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261065612128 stripped
@@ -8405,6 +8247,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (14)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8460,11 +8307,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (14)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261044474104 stripped
@@ -8480,6 +8322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8535,11 +8382,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260913764775 stripped
@@ -8555,6 +8397,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (33)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8610,11 +8457,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (33)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392260904177597 stripped
@@ -8630,6 +8472,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Yellow (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3624384771393624088, guid: f6cb2937e2d423c42ab9373761162e45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8685,11 +8532,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8752915547069381641, guid: f6cb2937e2d423c42ab9373761162e45,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Yellow (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6cb2937e2d423c42ab9373761162e45, type: 3}
 --- !u!4 &6478998956582666929 stripped
@@ -8705,6 +8547,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637936593097}
     m_Modifications:
+    - target: {fileID: 3378922029193839890, guid: fc3b8f7f631f53f49a695255d58f3fd0,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag O Chips Green Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 7336552090418258179, guid: fc3b8f7f631f53f49a695255d58f3fd0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8760,11 +8607,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3378922029193839890, guid: fc3b8f7f631f53f49a695255d58f3fd0,
-        type: 3}
-      propertyPath: m_Name
-      value: Bag O Chips Green Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc3b8f7f631f53f49a695255d58f3fd0, type: 3}
 --- !u!4 &1042243320070118534 stripped
@@ -8780,6 +8622,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Purple Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 9032016119863942658, guid: 02b0587d1d74c764c95ed47d9bb453b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8835,11 +8682,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Purple Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b0587d1d74c764c95ed47d9bb453b3, type: 3}
 --- !u!4 &1656844488828562768 stripped
@@ -8855,6 +8697,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638101212365}
     m_Modifications:
+    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Can Purple Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 9032016119863942658, guid: 02b0587d1d74c764c95ed47d9bb453b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8910,11 +8757,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3921744813531560467, guid: 02b0587d1d74c764c95ed47d9bb453b3,
-        type: 3}
-      propertyPath: m_Name
-      value: Can Purple Variant
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b0587d1d74c764c95ed47d9bb453b3, type: 3}
 --- !u!4 &1656844489256715354 stripped
@@ -8930,6 +8772,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637936593097}
     m_Modifications:
+    - target: {fileID: 3378922029193839890, guid: fc3b8f7f631f53f49a695255d58f3fd0,
+        type: 3}
+      propertyPath: m_Name
+      value: Bag O Chips Green Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7336552090418258179, guid: fc3b8f7f631f53f49a695255d58f3fd0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8985,11 +8832,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3378922029193839890, guid: fc3b8f7f631f53f49a695255d58f3fd0,
-        type: 3}
-      propertyPath: m_Name
-      value: Bag O Chips Green Variant (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc3b8f7f631f53f49a695255d58f3fd0, type: 3}
 --- !u!4 &1042243320248916897 stripped
@@ -9005,6 +8847,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9060,11 +8907,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261669027163 stripped
@@ -9080,6 +8922,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (18)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9135,11 +8982,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (18)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261655506479 stripped
@@ -9155,6 +8997,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9210,11 +9057,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (12)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261645659962 stripped
@@ -9230,6 +9072,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (39)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9285,11 +9132,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (39)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261501294415 stripped
@@ -9305,6 +9147,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9360,11 +9207,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261495133134 stripped
@@ -9380,6 +9222,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994637752775985}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew (32)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9435,11 +9282,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew (32)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}
 --- !u!4 &1120392261449829364 stripped
@@ -9455,6 +9297,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7756994638133921461}
     m_Modifications:
+    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
+        type: 3}
+      propertyPath: m_Name
+      value: Candy Bar Chew Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7217598211095456091, guid: 61e1298678ae3d943aaf04f3e8cf5010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9509,11 +9356,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395419151949761866, guid: 61e1298678ae3d943aaf04f3e8cf5010,
-        type: 3}
-      propertyPath: m_Name
-      value: Candy Bar Chew Variant (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e1298678ae3d943aaf04f3e8cf5010, type: 3}

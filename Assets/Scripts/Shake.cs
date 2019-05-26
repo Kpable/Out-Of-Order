@@ -24,7 +24,6 @@ public class Shake : MonoBehaviour
         Complete = true;
     }
 
-
     // Update is called once per frame
     void Update()
     {
