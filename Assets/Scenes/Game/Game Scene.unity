@@ -393,6 +393,7 @@ MonoBehaviour:
   ShakeDeviation: 0
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 2029079243}
+  outOfOrderSign: {fileID: 950328979}
 --- !u!1 &440401373
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +588,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &950328979 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8403652926188284467, guid: c6855a8f3174b0d42a16ac1d3e528263,
+    type: 3}
+  m_PrefabInstance: {fileID: 1476317135}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb86d9fe79846de48b12cdd725880cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &950328980 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8403652926188284464, guid: c6855a8f3174b0d42a16ac1d3e528263,
@@ -1382,6 +1395,7 @@ MonoBehaviour:
   ShakeDeviation: 0
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 0}
+  outOfOrderSign: {fileID: 0}
 --- !u!60 &1913271195 stripped
 PolygonCollider2D:
   m_CorrespondingSourceObject: {fileID: 853869133862674454, guid: 57a9f048d91949f4195b2b39098b3455,
@@ -19591,6 +19605,7 @@ MonoBehaviour:
   ShakeDeviation: 0
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 2029079243}
+  outOfOrderSign: {fileID: 950328979}
 --- !u!1 &4108289452308614372
 GameObject:
   m_ObjectHideFlags: 0
@@ -31312,6 +31327,7 @@ MonoBehaviour:
   ShakeDeviation: 15
   UIParent: {fileID: 0}
   LevelDesignater: {fileID: 2029079243}
+  outOfOrderSign: {fileID: 950328979}
 --- !u!4 &6947112461126089246
 Transform:
   m_ObjectHideFlags: 0
