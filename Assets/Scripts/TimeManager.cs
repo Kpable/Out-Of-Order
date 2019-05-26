@@ -50,6 +50,7 @@ public class TimeManager : MonoBehaviour
 
         if (Player.GetComponent<Collider2D>().IsTouching(MissionDestinations[MissionCount].GetComponent<Collider2D>()) && Player.GetComponent<PlayerCollisions>().info.Below == true)
         {
+            MissionDestinations[MissionCount].SetActive(false);
             MissionCount++;
             SetMissionTimer(MissionCount);
         }
