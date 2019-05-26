@@ -37,6 +37,8 @@ public class PlayerController : MonoBehaviour
     public int playerId = 0;
     private Player player; // The Rewired Player
 
+    private AudioSource audioSrc;
+    public AudioClip[] sfx;
 
     // Start is called before the first frame update
     void Awake()
@@ -45,6 +47,7 @@ public class PlayerController : MonoBehaviour
         playerCollisions = GetComponent<PlayerCollisions>();
         anim = GetComponent<Animator>();
         player = ReInput.players.GetPlayer(playerId);
+        audioSrc = GetComponent<AudioSource>();
 
     }
 
@@ -101,6 +104,7 @@ public class PlayerController : MonoBehaviour
         if (jump && playerCollisions.info.Below)
         {
             body.velocity = Vector2.up * jumpSpeed;
+            audioSrc.PlayOneShot(sfx[0]);
         }
 
         // if wall to left or right, is in the air, and is falling
@@ -172,6 +176,8 @@ public class PlayerController : MonoBehaviour
                 vel.x *= ((playerCollisions.info.Left) ? 1 : -1);
                 body.velocity = vel;                
             }
+            audioSrc.PlayOneShot(sfx[0]);
+
         }
     }
 

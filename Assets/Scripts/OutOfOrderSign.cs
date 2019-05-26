@@ -20,6 +20,7 @@ public class OutOfOrderSign : MonoBehaviour
     private Vector3 originalPosition;
     private bool gameEnded;
 
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -63,7 +64,7 @@ public class OutOfOrderSign : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.GetButtonDown("Start"))
+        if (player.GetButtonDown("Start") && !gameEnded)
         {
             body.simulated = true;
         }
@@ -98,5 +99,6 @@ public class OutOfOrderSign : MonoBehaviour
         vCam.Follow = transform;
         activeObject.SetActive(true);
         gameEnded = true;
+        SceneTransitioner.Instance.RestartScene();
     }
 }
