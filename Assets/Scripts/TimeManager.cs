@@ -28,6 +28,7 @@ public class TimeManager : MonoBehaviour
     public GameObject UIParent;
     public GameObject LevelDesignater;
     public OutOfOrderSign outOfOrderSign;
+    private bool OutofOrderRun;
 
 
     // Start is called before the first frame update
@@ -36,6 +37,7 @@ public class TimeManager : MonoBehaviour
         MissionCount = 0;
         SetMissionTimer(MissionCount);
         VendingMachine = this.gameObject;
+        OutofOrderRun = false;
     }
 
     // Update is called once per frame
@@ -83,14 +85,15 @@ public class TimeManager : MonoBehaviour
                 VendingMachine.GetComponent<Shake>().ShakeVend();
                 ShakeBase = 0;
             }
-            if (ShakeHigh > MissionTimer)
+            if (ShakeLow > MissionTimer)
             {
                 VendingMachine.GetComponent<Shake>().ShakeVend();
                 ShakeLow = 0;
             }
         }
-        if (MissionTimer < 0)
+        if (MissionTimer < 0 && OutofOrderRun == false)
         {
+            OutofOrderRun = !OutofOrderRun;
             outOfOrderSign.Fail();
         }
     }
