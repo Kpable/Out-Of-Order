@@ -23,13 +23,32 @@ public class LevelChange : MonoBehaviour
         {
             Levels[LevelNum].SetActive(false);
             LevelNum++;
-            Levels[LevelNum].SetActive(true);
+            if (LevelNum < Levels.Length)
+            {
+                Levels[LevelNum].SetActive(true);
+            }
+            else
+            {
+                LevelNum = 0;
+                Levels[LevelNum].SetActive(true);
+            }
         }
         if (Input.GetKeyDown(KeyCode.Comma))
         {
             Levels[LevelNum].SetActive(false);
             LevelNum--;
-            Levels[LevelNum].SetActive(true);
+
+            if (LevelNum < 0)
+            {
+                LevelNum = 0;
+                Levels[LevelNum].SetActive(true);
+            }
+            else
+            {
+                LevelNum = 0;
+
+                Levels[LevelNum].SetActive(true);
+            }
         }
     }
 
@@ -38,7 +57,7 @@ public class LevelChange : MonoBehaviour
         Levels[LevelNum].SetActive(false);
         LevelNum++;
         Levels[LevelNum].SetActive(true);
-        
+
     }
 
 
